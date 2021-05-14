@@ -1,0 +1,52 @@
+img,
+video {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Si la pantalla es mayor a 960px entonces aplico estas reglas CSS */
+@media screen and (min-width: 960px) {
+
+    section article {
+        display: block;
+    }
+    
+    section div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+}
+
+/* Si la pantalla es mayor a 960px y menor a 1240px entonces aplico estas reglas CSS */
+@media screen and (min-width: 960px) and (max-width: 1240px) { 
+
+    .ancho-50 {
+        width: 47.5%;
+    }
+    
+}
+
+/* Si la pantalla es mayor a 1240px entonces aplico estas reglas CSS */
+@media screen and (min-width: 1240px) {
+    
+    header {
+        margin: 2.5%;
+    }
+
+    section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .ancho-33 {
+        width: 30%;
+    }
+
+    section div {
+        display: block;
+    }
+
+}

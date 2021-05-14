@@ -1,0 +1,22 @@
+body {
+    margin: 0px;
+}
+
+section {
+    margin: 2.5%;
+}
+
+section div {
+    margin-bottom: 2.5%;
+}
+
+section article {
+    height: 200px;
+    background-color: lightgray;
+    display: none;
+}
+
+section article img {
+    display: block;
+    margin: 0 auto;
+}

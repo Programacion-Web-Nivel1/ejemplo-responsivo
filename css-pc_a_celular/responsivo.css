@@ -1,0 +1,67 @@
+/* 3ra tactica - Media Queries */
+/* Computadoras: Ancho > 1240px */
+/* Tablet: 960px < Ancho < 1240px */
+/* Celular: Ancho < 960px*/
+
+/* El ancho de la pantalla para que estas reglas se aplican debe ser menor a 960px */
+@media screen and (max-width: 960px) { 
+    
+    main {
+        margin: 0px;
+    }
+
+    section {
+        margin: 2.5%;
+        flex-direction: column;
+    }
+
+    section div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 2.5%;
+    }
+
+    .ancho-100-celular {
+        width: 100%;
+    }
+
+    .oculto-celular {
+        display: none;
+    }
+
+}
+
+/* El ancho de la pantalla para que estas reglas se aplican debe ser superior a 960px y inferior a 1240px*/
+@media screen and (min-width: 960px) and (max-width: 1240px) {
+
+    main {
+        margin: 0px;
+    }
+
+    section {
+        margin: 2.5%;
+        flex-direction: column;
+    }
+
+    .ancho-50-tablet {
+        width: 47.5%;
+    }
+
+    .ancho-100-tablet {
+        width: 100%;
+    }
+
+    section div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 2.5%;
+    }
+
+}
+
+/* El ancho de la pantalla para que estas se reglas se aplican debe ser superior a 1240px */
+@media screen and (min-width: 1240px) {
+
+}
